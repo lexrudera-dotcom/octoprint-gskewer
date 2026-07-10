@@ -1,4 +1,5 @@
 # About Gskewer
+
 This is the OctoPrint plugin version of Gskewer; a tool to skew transform gcode file coordinates to account for axis misalignment of a 3D printer.
 
 In order to use Gskewer you will need to print a test cube, take accurate measurements of the cube, then input those measurements into the Gskewer settings page of OctoPrint. 
@@ -6,7 +7,8 @@ In order to use Gskewer you will need to print a test cube, take accurate measur
 The G-code file to be modified, the measured error (in mm), and the distance from zero where the measurement was taken is then entered into skew.py before being run.
 
 The original version of Gskewer can be found at [https://github.com/MechanizedMedic/gskewer](https://github.com/MechanizedMedic/gskewer)
-
+## My fork
+I dunno. The old version hadn't be updated in over half a decade and I just kinda need it to work. Also while the original repo kept getting updates, this didn't. Pfpfpfp. -Lex
 # Preparing to use Gskewer
 The task of measuring the error between axis pairs is shown in good detail at http://www.zs1jen.org/Station_Manuals/Reference/3D_Printers/14_RepRapPro_-_Axis_compensation.pdf
 
